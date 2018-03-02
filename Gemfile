@@ -27,6 +27,9 @@ gem "pusher" # multi-user
 gem "saml_idp"
 gem "rails_server_timings"
 
+gem 'sidekiq'
+gem 'sidekiq-failures'
+
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 
@@ -36,10 +39,11 @@ group :test, :development do # build testing
 end
 
 group :development do
-  # gem "bullet" # check for n+1 queries
+  gem "bullet" # check for n+1 queries
   gem "better_errors"
   gem "binding_of_caller"
   gem "meta_request"
+  gem "rubocop", require: false
 end
 
 group :test do
