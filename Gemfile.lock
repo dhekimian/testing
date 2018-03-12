@@ -215,9 +215,9 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     mysql2 (0.4.9)
-    newrelic_rpm (3.18.1.330)
+    newrelic_rpm (4.8.0.341)
     nio4r (2.1.0)
-    nokogiri (1.8.1)
+    nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
     os (0.9.6)
@@ -313,7 +313,7 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-progressbar (1.9.0)
-    ruby-saml (1.5.0)
+    ruby-saml (1.7.2)
       nokogiri (>= 1.5.10)
     rubyzip (1.2.1)
     saml_idp (0.7.2)
@@ -336,6 +336,8 @@ GEM
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
+    sentry-raven (2.7.2)
+      faraday (>= 0.7.6, < 1.0)
     sidekiq (5.0.5)
       concurrent-ruby (~> 1.0)
       connection_pool (~> 2.2, >= 2.2.0)
@@ -429,6 +431,7 @@ DEPENDENCIES
   saml_idp
   sass-rails
   selenium-webdriver
+  sentry-raven
   sidekiq
   sidekiq-failures
   simplecov
@@ -439,4 +442,4 @@ DEPENDENCIES
   wkhtmltopdf-binary
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
