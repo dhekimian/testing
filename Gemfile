@@ -15,6 +15,7 @@ gem "websocket" # connect to websocket - for healthcheck
 gem "gitlab" # gitlab api
 gem "diffy" # diff strings
 gem "newrelic_rpm" # monitoring
+gem "sentry-raven" # error monitoring
 gem "dotenv" # environment variables from a file
 gem "snmp" # snmp checking
 gem "google-api-client", "0.9.pre5" # google apis
