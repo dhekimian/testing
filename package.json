@@ -12,7 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "jquery": "^2.2.4"
-  }
+  },
   "peerDependencies": {
     "jquery": "^2.2.4"
   }
