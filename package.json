@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@rails/webpacker": "^4.0.7",
+    "ekko-lightbox": "^5.3.0",
+    "imports-loader": "^0.8.0",
+    "js-cookie": "^2.2.1",
+    "lazyframe": "^1.1.6",
+    "snapsvg": "^0.5.1",
+    "sugarss": "^2.0.0",
+    "uglify-js": "^3.6.0"
+  },
+  "license": "MIT"
+  "peerDependencies": {
+    "lodash": "^4.10.0"
+}
