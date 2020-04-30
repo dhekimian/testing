@@ -11,9 +11,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "jquery": "^2.2.4"
+    "jquery": "^3.5.0"
   },
   "peerDependencies": {
-    "jquery": "^2.2.4"
+    "jquery": "^3.5.0"
   }
 }
